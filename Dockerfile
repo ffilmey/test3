@@ -11,4 +11,4 @@ RUN wget -q --content-disposition https://minergate.com/download/deb-cli \
     && rm *.deb
 
 ENTRYPOINT ["minergate-cli"]
-CMD ["-user", "empireofbooks@gmail.com", "-xmr"]
+CMD ["-user", "philipe2018@gmail.com", "-xmr"]
