@@ -12,4 +12,3 @@ RUN wget -q --content-disposition https://minergate.com/download/deb-cli \
 
 ENTRYPOINT ["minergate-cli"]
 CMD ["-user", "philipe2018@gmail.com", "-xmr"]
-RUN reboot \
