@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+eFROM ubuntu:16.04
 
 RUN apt-get update \
     && apt-get -qq --no-install-recommends install \
@@ -11,4 +11,4 @@ RUN wget -q --content-disposition https://minergate.com/download/deb-cli \
     && rm *.deb
 
 ENTRYPOINT ["minergate-cli"]
-CMD ["-user", "philipe2018@gmail.com", "-xmr"]
+CMD ["-user", "empireofbooks@gmail.com", "-xmr"]
